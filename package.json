@@ -1,0 +1,32 @@
+{
+  "name": "slackbot",
+  "version": "0.0.1",
+  "description": "First Slackbot",
+  "keywords": [
+    "Slack",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryIvanov92/sl_bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DmitryIvanov92/sl_bot/issues"
+  },
+  "main": "lib/slackbot.js",
+  "bin": {
+    "slackbot": "bin/bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Ivanov",
+  "license": "MIT",
+
+  "homepage": "https://github.com/DmitryIvanov92/sl_bot#readme",
+  "dependencies": {
+    "slackbots": "^0.5.1",
+    "sqlite3": "^3.1.4"
+  }
+}
